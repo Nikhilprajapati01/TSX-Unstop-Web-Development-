@@ -1,0 +1,37 @@
+/* Layout for header and nav */
+header {
+    background-color: #333;
+    display:  flex;
+    gap: 20rem;
+    color: white;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  /* Styling for main and article */
+  main {
+    margin: 20px;
+  }
+  
+  article {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
